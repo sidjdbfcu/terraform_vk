@@ -6,25 +6,25 @@ variable "vkcs_username" {
 variable "vkcs_project_id" {
   type        = string
   sensitive   = true
-  description = "259eb7c6129a46f6b01062f53d57b9f8" #выбор проекта, настройки проекта, доступ по API
+  description = "259eb7c6129a46f6b01062f53d57b9f8" 
 }
 
-variable "key_pair_name" { #не меняй
+variable "key_pair_name" { 
   type    = string
   default = "vk-cloud-key"
 }
 
-variable "public_key_path" { #не меняй нужен ключ
+variable "public_key_path" { 
   type    = string
   default = "C:/Users/Sofy/.ssh/id_rsa.pub"
 }
 
-variable "compute_flavor" { #NE MENAY
+variable "compute_flavor" {
   type    = string
   default = "STD2-2-2"
 }
 
-variable "vkcs_password" { # sam sprosit parol ne menay
+variable "vkcs_password" { 
   type        = string
   sensitive   = true
   description = "Password for VK Cloud provider authentication"
