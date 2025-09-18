@@ -4,7 +4,7 @@ import string
 
 DB_HOST = "217.16.16.6"   
 DB_USER = "Leskina_user"             
-DB_PASSWORD = "3uD.5Z3Jt1x570io5"        
+DB_PASSWORD = "---"     #пароль для пользователя БД    
 DB_NAME = "leskina_test_database"   
 
 NUM_TABLES = 200
