@@ -10,24 +10,24 @@
 
 ## Структура проекта
 
-db-terraform/
-├─ main.tf/
-├─ networks.tf/
-├─ outputs.tf/
-└─ init_db.py/
+db-terraform  
+├─ main.tf  
+├─ networks.tf  
+├─ outputs.tf  
+└─ init_db.py  
 
 ---
 ## Запуск Terraform
-1. Инициализируем проекст
-       terraform init
-2. Применяем конфигурацию
-       terraform apply
-3. Получаем публичный IP MySQL (Он нам нужен для подключения к БД)
-       terraform output
-4. Устанавливаем необходимый пакет
-       pip install mysql-connector-python
-5. Запускаем скрипт
-       python init_db.py
+1. Инициализируем проект  
+       terraform init  
+2. Применяем конфигурацию  
+       terraform apply  
+3. Получаем публичный IP MySQL (Он нам нужен для подключения к БД)  
+       terraform output  
+4. Устанавливаем необходимый пакет  
+       pip install mysql-connector-python  
+5. Запускаем скрипт  
+       python init_db.py  
 
 ---
 
